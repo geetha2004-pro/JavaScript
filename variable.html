@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variable</title>
+</head>
+<body>
+    <script>
+//    document.write("good morning to all<br>")
+//    document.write("good morning to all <br>")
+//    document.write("good morning to all<br>")
+// --------------------------------------------------usin var key ward---------------------------------------------------
+// -----------------------It can be re-declare and re-innitialized-------------------------------------------------
+var name="geetha";
+console.log(name)
+var number;
+number=14235621;
+console.log(number);
+var name="sunitha";
+console.log(name);
+
+// -------------------using let key ward-----------------------------------------------
+// ------------it can't be re-declared but re-initialized--------------------------------
+let age;
+age=20;
+console.log(age);
+// let age=10
+// console.log(age);
+// -----------------------------------------const---------------------------------------------
+// ---------------------it con't be re-declared but reinitialized-------------------------------
+const a=12192892
+console.log(a);
+
+
+// ------------------------------------------using block scop--------------------------------------
+let x=20;
+console.log(x);
+{
+    // ------------------this is block scop---------------------both are executed------------
+    console.log(x);
+}
+// -------------------------------------defined block scop-------------------------
+{
+    let x=40;
+    console.log(x);
+}
+console.log(x);
+
+
+        </script>
+        <script src="../varible.js"></script>
+        
+</body>
+</html>

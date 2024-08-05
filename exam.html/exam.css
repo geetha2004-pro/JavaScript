@@ -1,0 +1,37 @@
+
+/*    1st */
+.container{
+    margin: 100px;
+    text-align: center;
+    width: 80%;
+}
+
+
+
+
+
+
+/*     3rd             */
+.zindex{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-left: 30px;
+    padding-top: 20px;
+    position: absolute;
+    z-index: 2;
+}
+.zindex1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(212, 17, 147);
+    margin-left: 40px;
+    z-index: 3;
+    position: relative;
+
+}
+/*  4th */
+.nav{
+    display: flex;
+    margin-top: 100px;
+}

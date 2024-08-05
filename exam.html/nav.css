@@ -1,0 +1,13 @@
+.nav{
+    display: flex;
+ background-color: black;
+    list-style-type: none;
+    color: white;
+}
+
+li{
+   padding-left: 20px;
+   margin-left: 50px;
+  
+    padding-top: 50px;
+}
